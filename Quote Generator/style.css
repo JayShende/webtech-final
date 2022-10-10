@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('https://source.unsplash.com/1600x900/?dark'); 
+    font-family: helvetica;
+    font-size: 18px;
+  }
+  
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 200px auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quote-box {
+    /* border: 2px solid #ddd; */
+    padding: 30px 20px;
+    margin-bottom: 20px;
+  }
+  #quote {
+    color: #ddd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #author {
+    float: right;
+    color: #ddd;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+.button{
+  align-self: center;
+  width: 170px;
+  height: 60px;
+  font-size: 1.1em;
+  cursor: pointer;
+  background: #171717;
+  color: white;
+  border: none;
+  transition: all 0.4s;
+  border-radius: 10px;
+}
+
+.button:hover{
+  border-radius: 10px;
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #f85959,
+  0 15px 0 -4px #39a2db,
+  0 16px 10px -3px #39a2db;
+}
